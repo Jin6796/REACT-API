@@ -24,14 +24,10 @@
     <script>
       const root = document.getElementById("root");
       console.log(root);
-      const element = React.createElement(
-          "h1"
-          ,{
-            className: "title",
-            children : ["DOM Exam", "Good Luck", "nice"],
-          },
-            "DOM Test"
-      );
+      const element = React.createElement("h1",{
+        className: "title",
+        children : ["DOM Exam", "Good Luck", "nice"],
+      });
       ReactDOM.render(element, root);
     </script>
   </body>

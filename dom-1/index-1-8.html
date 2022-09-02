@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-      .title {
+      .box {
         color : red;
       }
     </style>
@@ -26,9 +26,9 @@
       const root = document.getElementById("root");
       const element = React.createElements("h1", {
         className: "title",
-        childeren: ["Hi!", "Nice day"]
-      })
-      ReactDOM.render(msg, root);
+        childeren: ["Hi!", "Nice day", "Good"]
+      });
+      ReactDOM.render(element, root);
     </script>
-</body>
+  </body>
 </html>
